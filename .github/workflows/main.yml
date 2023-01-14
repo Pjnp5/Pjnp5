@@ -30,4 +30,10 @@ jobs:
           plugin_achievements_display: compact
           plugin_languages_skipped: pjnp5
           plugin_languages_threshold: 1%
+          name: Recent activity charts
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: Europe/Lisbon
+
           
