@@ -32,10 +32,10 @@
                                 <g>
                                     <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="30" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -219,12 +219,12 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="230.7020586947275" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="230.7020586947275" y="0" width="72.5204019611051" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="303.2224606558326" y="0" width="56.86252129857775" height="8" fill="#DA5B0B"/>
-                    <rect mask="url(#languages-bar)" x="360.08498195441035" y="0" width="56.44450603658951" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="416.5294879909999" y="0" width="25.426626714268096" height="8" fill="#b07219"/>
-                    <rect mask="url(#languages-bar)" x="441.95611470526796" y="0" width="18.043885294732046" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="230.70194147095933" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="230.70194147095933" y="0" width="72.52043903564112" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="303.2223805066004" y="0" width="56.86255036835036" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="360.08493087495077" y="0" width="56.44453489266058" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="416.5294657676113" y="0" width="25.426639713098258" height="8" fill="#b07219"/>
+                    <rect mask="url(#languages-bar)" x="441.95610548070965" y="0" width="18.043894519290344" height="8" fill="#555555"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -2491,6 +2491,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-8.5, 11)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2592,7 +2597,7 @@
                                     </defs>
                                     <svg xmlns="http://www.w3.org/2000/svg" class="gauge info">
                                         <circle class="gauge-base" r="25" cx="28" cy="28"/>
-                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="79.40965092402465 155"/>
+                                        <circle class="gauge-arc" transform="rotate(-90 28 28)" r="25" cx="28" cy="28" stroke-dasharray="79.62183436002739 155"/>
                                     </svg>
                                     <svg xmlns="http://www.w3.org/2000/svg" mask="url(#mask)">
                                         <g xmlns="http://www.w3.org/2000/svg" transform="translate(5 4)" fill="none" fill-rule="evenodd">
@@ -2831,7 +2836,7 @@
                                 <div class="title">
                                     <span class="prefix"></span>
                                     Inspirer
-                                    <span class="gh">ranked 2.43m out of 403m repositories</span>
+                                    <span class="gh">ranked 2.37m out of 404m repositories</span>
                                     <div class="value-wrapper">
                                         <div class="value">3</div>
                                     </div>
@@ -2973,7 +2978,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 26 May 2023, 01:56:50 (timezone Europe/Lisbon) with lowlighter/metrics@3.33.0</span>
+                <span>Last updated 27 May 2023, 01:59:08 (timezone Europe/Lisbon) with lowlighter/metrics@3.33.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
